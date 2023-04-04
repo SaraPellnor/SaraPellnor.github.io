@@ -304,6 +304,7 @@ section > img {
     }
 
     main {
+        flex-wrap: nowrap;
         align-items: center;
         margin-bottom: 230px;
     }
@@ -325,7 +326,6 @@ section > img {
     .icon--div {
         flex-direction: column;
         height: 136px;
-        padding-left: 10em;
     }
 
     .icon--div > a {
