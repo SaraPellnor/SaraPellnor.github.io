@@ -77,11 +77,12 @@ main {
 
 .presentation {
     text-align: center;
-        height: 60px;
-        width: 80%;
-        color: rgb(185, 185, 185);
-        margin-bottom: 20px;
-    }
+    height: 60px;
+    width: 80%;
+    color: rgb(185, 185, 185);
+    margin-bottom: 20px;
+}
+
 /* 
 .coding {
     width: 100vw;
@@ -149,17 +150,18 @@ footer {
     margin-bottom: 30px;
 }
 
-.experience, .school {
+.experience,
+.school {
     color: rgb(185, 185, 185);
     margin: 3em;
 }
 
-.experience> h2 {
+.experience>h2 {
     color: rgb(224, 224, 135);
     margin-bottom: 10px;
 }
 
-.school > h2 {
+.school>h2 {
     color: rgb(224, 224, 135);
     margin-bottom: 10px;
 }
@@ -271,26 +273,26 @@ tr {
     max-width: 70%;
     height: auto;
     padding: 1em;
-    border: 1px rgb(185, 185, 185) solid ;
+    border: 1px rgb(185, 185, 185) solid;
     color: rgb(185, 185, 185);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 
 }
 
-section >a {
+section>a {
     text-align: center;
 }
 
-section > a > img {
+section>a>img {
     border: 1px solid rgb(185, 185, 185);
     border-radius: 10px;
     width: 60%;
     margin: 1em;
-    
+
 }
 
 .read-more-btn {
-    border: none; 
+    border: none;
     color: rgb(238, 238, 238);
 }
 
@@ -300,13 +302,17 @@ section > a > img {
 
 .hidden-text {
     display: none;
-  }
+}
 
 .stars {
     margin-top: 2em;
 }
 
-@media only screen and (max-width: 890px) { .experience { margin-top: 4em;} }
+@media only screen and (max-width: 890px) {
+    .experience {
+        margin-top: 4em;
+    }
+}
 
 
 
@@ -318,10 +324,12 @@ section > a > img {
     * {
         flex-direction: column;
     }
+
     header {
         align-items: center;
         height: 50px;
     }
+
     .navigation {
         height: 50px;
         flex-direction: row;
@@ -346,27 +354,29 @@ section > a > img {
         position: absolute;
         transform: none;
     }
-.quality {
-    margin-top: 8em;
-}
 
-table {
-    margin: 0;
-    width: 80vw;
-}
+    .quality {
+        margin-top: 8em;
+    }
 
-tr {
-    margin-bottom: 10px;
-}
+    table {
+        margin: 0;
+        width: 80vw;
+    }
 
-/* -----About me----- */
+    tr {
+        margin-bottom: 10px;
+    }
 
-.portrait {
-    margin: 1em 0 0 0 ;
-}
-.funFact {
-    padding: 3em;
-}
+    /* -----About me----- */
+
+    .portrait {
+        margin: 1em 0 0 0;
+    }
+
+    .funFact {
+        padding: 3em;
+    }
 
 
     footer {
@@ -381,13 +391,14 @@ tr {
     .address--div {
         height: 100px;
     }
+
     .icon--div {
         flex-direction: column;
         height: 136px;
         width: 7em;
     }
 
-    .icon--div > a {
+    .icon--div>a {
         font-size: 250%;
     }
 
