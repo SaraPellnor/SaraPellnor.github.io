@@ -334,7 +334,11 @@ section > img {
 
 table {
     margin: 0;
-    width: 100vw;
+    width: 80vw;
+}
+
+tr {
+    margin-bottom: 10px;
 }
 
 /* -----About me----- */
@@ -364,6 +368,7 @@ table {
     .icon--div {
         flex-direction: column;
         height: 136px;
+        width: 7em;
     }
 
     .icon--div > a {
