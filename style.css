@@ -330,6 +330,7 @@ section > img {
 
 table {
     margin: 0;
+    width: 100vw;
 }
 
 /* -----About me----- */
