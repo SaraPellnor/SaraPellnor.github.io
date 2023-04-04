@@ -40,6 +40,10 @@ header {
     color: rgba(207, 206, 206, 0.356);
 }
 
+.this-side {
+    font-weight: bolder;
+}
+
 main {
     display: flex;
     flex-wrap: wrap;
