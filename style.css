@@ -328,6 +328,10 @@ section > img {
     margin-top: 8em;
 }
 
+table {
+    margin: 0;
+}
+
 /* -----About me----- */
 
 .portrait {
