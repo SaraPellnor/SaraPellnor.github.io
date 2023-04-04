@@ -315,8 +315,8 @@ section > img {
 
     footer {
         flex-direction: row;
-        height: 230px;
-        padding: 1em;
+        height: 160px;
+        padding: 0 1em 0 1em;
         align-items: center;
     }
 
