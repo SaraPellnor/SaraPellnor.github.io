@@ -16,6 +16,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     padding: 2em;
     width: 100vw;
     height: 100px;
@@ -71,7 +72,7 @@ main {
 .webbdeveloper--div {
     color: rgb(185, 185, 185);
     font-size: xx-large;
-    margin-bottom: 20px;
+    margin: 20px 0 20px 0;
 }
 
 .presentation {
@@ -81,6 +82,11 @@ main {
         color: rgb(185, 185, 185);
         margin-bottom: 20px;
     }
+/* 
+.coding {
+    width: 100vw;
+    height: 10em;
+} */
 
 footer {
     height: 10em;
@@ -88,6 +94,7 @@ footer {
     display: flex;
     justify-content: space-between;
     position: fixed;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     bottom: 0;
     padding: 2em;
 }
@@ -104,6 +111,10 @@ footer {
 
 .address--div>a:hover {
     color: rgba(207, 206, 206, 0.356);
+}
+
+.address--div>.phone>a {
+    color: rgb(185, 185, 185);
 }
 
 .icon--div {
@@ -221,8 +232,8 @@ tr {
 /* ----- about me ----- */
 
 .portrait {
-    width: 25%;
-    height: 25%;
+    width: 50%;
+    height: 50%;
     margin: 3em;
     border: 1px solid rgb(185, 185, 185);
     border-radius: 25px;
@@ -262,6 +273,7 @@ tr {
     padding: 1em;
     border: 1px rgb(185, 185, 185) solid ;
     color: rgb(185, 185, 185);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 
 }
 
@@ -304,7 +316,6 @@ section > img {
     }
     header {
         align-items: center;
-        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     }
     .navigation {
         height: 50px;
@@ -325,11 +336,12 @@ section > img {
     /* -----CV----- */
     .info {
         top: 150px;
+        right: 150px;
         z-index: 0;
         position: absolute;
+        transform: none;
     }
 .quality {
-    height: 100vh;
     margin-top: 8em;
 }
 
@@ -346,8 +358,6 @@ tr {
 
 .portrait {
     margin: 1em 0 0 0 ;
-    width: 50%;
-    height: 50%;
 }
 .funFact {
     padding: 3em;
@@ -360,7 +370,6 @@ tr {
         padding: 0 1em 0 1em;
         align-items: center;
         width: 100vw;
-        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     }
 
     .address--div {
