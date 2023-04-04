@@ -1,0 +1,338 @@
+/* ----- Base ----- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    background-color: rgb(31, 42, 46);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.navigation {
+    width: 20em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation>a {
+    font-size: large;
+    color: rgb(185, 185, 185);
+
+}
+
+.navigation>a:hover {
+    color: rgba(207, 206, 206, 0.356);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1075px;
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 10em;
+}
+
+.logo>* {
+    width: 5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(192, 104, 3);
+    font-size: 100px;
+    margin: 100px 0 100px 20px;
+}
+
+.logo>*:hover {
+    color: rgba(153, 83, 2, 0.603);
+}
+
+.webbdeveloper--div {
+    color: rgb(185, 185, 185);
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+.presentation {
+    text-align: center;
+        height: 60px;
+        width: 80%;
+        color: rgb(185, 185, 185);
+        margin-bottom: 20px;
+    }
+
+.portrait {
+    width: 25%;
+    height: 25%;
+    margin: 3em;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 25px;
+}
+
+footer {
+    height: 10em;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    padding: 2em;
+}
+
+.address--div,
+.address--div>a {
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgb(185, 185, 185);
+}
+
+.address--div>a:hover {
+    color: rgba(207, 206, 206, 0.356);
+}
+
+.icon--div {
+    width: 15em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.icon--div>a {
+    font-size: 200%;
+    color: rgb(185, 185, 185);
+}
+
+.icon--div>a:hover {
+    color: rgba(207, 206, 206, 0.356);
+}
+
+/* ----- cv ----- */
+.quality {
+    width: 180px;
+    color: rgb(0, 105, 0);
+    font-size: larger;
+    font-weight: bold;
+    margin: 3em;
+}
+
+.quality>h2 {
+    color: rgb(3, 163, 3);
+    margin-bottom: 10px;
+}
+
+.experience, .school {
+    color: rgb(185, 185, 185);
+    margin: 3em;
+}
+
+.experience> h2 {
+    color: rgb(224, 224, 135);
+    margin-bottom: 10px;
+}
+
+.school > h2 {
+    color: rgb(224, 224, 135);
+    margin-bottom: 10px;
+}
+
+.type {
+    color: rgb(3, 163, 3);
+    font-size: larger;
+}
+
+.year {
+    color: rgb(139, 79, 167);
+    margin-bottom: 10px;
+}
+
+table {
+    color: rgb(185, 185, 185);
+    margin: 3em;
+    min-height: 430px;
+}
+
+tr {
+    margin-bottom: 20px;
+}
+
+.td-1 {
+    background-color: rgb(212, 8, 151);
+    width: 50px;
+    height: 20px;
+}
+
+.td-2 {
+    background-color: rgb(212, 8, 151);
+    width: 80px;
+    height: 20px;
+}
+
+.td-3 {
+    background-color: rgb(212, 8, 151);
+    width: 140px;
+    height: 20px;
+}
+
+.td-4 {
+    background-color: rgb(212, 8, 151);
+    width: 200px;
+    height: 20px;
+}
+
+.td-5 {
+    background-color: rgb(212, 8, 151);
+    width: 300px;
+    height: 20px;
+}
+
+.info {
+    border: solid 2px rgb(108, 142, 173);
+    color: rgb(108, 142, 173);
+    padding: 7px;
+    transform: rotate(30deg);
+    height: 100%;
+    margin: 3em;
+}
+
+.blue {
+    color: rgb(55, 115, 172);
+}
+
+/* ----- about me ----- */
+
+.funFact {
+    color: rgb(185, 185, 185);
+    padding: 10em;
+}
+
+.funFact>h3 {
+    margin-bottom: 1em;
+}
+
+.funFact>p {
+    text-align: center;
+}
+
+/* ----- posts ----- */
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.posts>section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    min-width: 300px;
+    max-width: 70%;
+    height: auto;
+    padding: 1em;
+    border: 1px rgb(185, 185, 185) solid ;
+    color: rgb(185, 185, 185);
+
+}
+
+section > img {
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 10px;
+    width: 60%;
+    margin: 1em;
+    
+}
+
+.read-more-btn {
+    border: none; 
+    color: rgb(238, 238, 238);
+}
+
+.read-more-btn:hover {
+    color: rgb(162, 177, 155);
+}
+
+.hidden-text {
+    display: none;
+  }
+
+.stars {
+    margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    * {
+        flex-direction: column;
+    }
+    header {
+        align-items: center;
+    }
+    .navigation {
+        height: 50px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    main {
+        align-items: center;
+        margin-bottom: 230px;
+    }
+
+    .logo>* {
+        margin-top: 20px;
+    }
+
+    footer {
+        flex-direction: row;
+        height: 230px;
+        padding: 1em;
+        align-items: center;
+    }
+
+    .address--div {
+        height: 100px;
+    }
+    .icon--div {
+        flex-direction: column;
+        height: 136px;
+    }
+
+    .icon--div > a {
+        font-size: 250%;
+    }
+
+}
