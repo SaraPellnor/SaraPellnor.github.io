@@ -99,6 +99,7 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     color: rgb(185, 185, 185);
+    z-index: 9999;
 }
 
 .address--div>a:hover {
