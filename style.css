@@ -15,7 +15,7 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     padding: 2em;
     width: 100vw;
@@ -277,7 +277,11 @@ tr {
 
 }
 
-section > img {
+section >a {
+    text-align: center;
+}
+
+section > a > img {
     border: 1px solid rgb(185, 185, 185);
     border-radius: 10px;
     width: 60%;
@@ -316,6 +320,7 @@ section > img {
     }
     header {
         align-items: center;
+        height: 50px;
     }
     .navigation {
         height: 50px;
@@ -370,6 +375,7 @@ tr {
         padding: 0 1em 0 1em;
         align-items: center;
         width: 100vw;
+        position: unset;
     }
 
     .address--div {
