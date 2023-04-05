@@ -41,7 +41,7 @@ header {
     color: rgba(207, 206, 206, 0.356);
 }
 
-.this-side {
+.this-side, #this-side {
     font-weight: bolder;
 }
 
@@ -82,12 +82,6 @@ main {
     color: rgb(185, 185, 185);
     margin-bottom: 20px;
 }
-
-/* 
-.coding {
-    width: 100vw;
-    height: 10em;
-} */
 
 footer {
     height: 10em;
