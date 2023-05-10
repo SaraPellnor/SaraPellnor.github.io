@@ -131,7 +131,18 @@ footer {
 }
 
 /* ----- cv ----- */
-.quality {
+iframe {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.pdf-light {
+    margin: 1em;
+    font-size: 200%;
+    color: rgb(185, 185, 185);
+}
+/* .quality {
     width: 180px;
     color: rgb(0, 105, 0);
     font-size: larger;
@@ -223,7 +234,7 @@ tr {
 
 .blue {
     color: rgb(55, 115, 172);
-}
+} */
 
 /* ----- about me ----- */
 
