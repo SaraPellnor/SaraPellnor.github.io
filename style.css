@@ -83,6 +83,10 @@ main {
     margin-bottom: 20px;
 }
 
+.presentation>p {
+    margin-bottom: 1em;
+}
+
 footer {
     height: 10em;
     width: 100vw;
