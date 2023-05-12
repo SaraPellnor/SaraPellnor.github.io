@@ -56,14 +56,18 @@ main {
     margin-bottom: 10em;
 }
 
-.logo>* {
-    /* width: 100%; */
+.logo {
+    width: auto;
+    height: 211px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
+}
+
+.logo>a {
+    height: 90px;
     color: rgb(192, 104, 3);
     font-size: 80px;
-    margin: 100px 0 100px 0;
 }
 
 @keyframes blink {
@@ -79,11 +83,12 @@ main {
   }
   
   #blinking-logo {
-    animation: blink 3s infinite;
+    animation: blink 2s infinite;
   }
 
-.logo>*:hover {
+.logo>a:hover {
     color: rgba(153, 83, 2, 0.603);
+    font-size: 90px;
 }
 
 .webbdeveloper--div {
@@ -128,9 +133,11 @@ footer {
 .address--div>.phone>a:hover {
     color: rgba(207, 206, 206, 0.356);
 }
+
 .phone {
     margin-bottom: 5px;
 }
+
 .address--div>.phone>a {
     color: rgb(185, 185, 185);
 }
@@ -145,11 +152,15 @@ footer {
 }
 
 .icon--div>a {
+    display: flex;
+    justify-content: center;
+    width: 30px;
     font-size: 200%;
     color: rgb(185, 185, 185);
 }
 
 .icon--div>a:hover {
+    font-size: 300%;
     color: rgba(207, 206, 206, 0.356);
 }
 
@@ -165,100 +176,6 @@ iframe {
     font-size: 200%;
     color: rgb(185, 185, 185);
 }
-
-/* .quality {
-    width: 180px;
-    color: rgb(0, 105, 0);
-    font-size: larger;
-    font-weight: bold;
-    margin: 5em 3em 3em 3em;
-}
-
-.quality>h2 {
-    color: rgb(3, 163, 3);
-    margin-bottom: 30px;
-}
-
-.experience,
-.school {
-    color: rgb(185, 185, 185);
-    margin: 3em;
-}
-
-.experience>h2 {
-    color: rgb(224, 224, 135);
-    margin-bottom: 10px;
-}
-
-.school>h2 {
-    color: rgb(224, 224, 135);
-    margin-bottom: 10px;
-}
-
-.type {
-    color: rgb(3, 163, 3);
-    font-size: larger;
-}
-
-.year {
-    color: rgb(139, 79, 167);
-    margin-bottom: 10px;
-}
-
-table {
-    color: rgb(185, 185, 185);
-    margin: 3em;
-    min-height: 430px;
-}
-
-tr {
-    margin-bottom: 20px;
-}
-
-.td-1 {
-    background-color: rgb(212, 8, 151);
-    width: 50px;
-    height: 20px;
-}
-
-.td-2 {
-    background-color: rgb(212, 8, 151);
-    width: 80px;
-    height: 20px;
-}
-
-.td-3 {
-    background-color: rgb(212, 8, 151);
-    width: 140px;
-    height: 20px;
-}
-
-.td-4 {
-    background-color: rgb(212, 8, 151);
-    width: 200px;
-    height: 20px;
-}
-
-.td-5 {
-    background-color: rgb(212, 8, 151);
-    width: 250px;
-    height: 20px;
-}
-
-.info {
-    border: solid 2px rgb(108, 142, 173);
-    color: rgb(108, 142, 173);
-    transform: rotate(30deg);
-    position: fixed;
-    top: 100px;
-    right: 50px;
-    z-index: 9999;
-
-}
-
-.blue {
-    color: rgb(55, 115, 172);
-} */
 
 /* ----- about me ----- */
 
@@ -321,6 +238,10 @@ section>a>img {
 
 }
 
+section:hover {
+    box-shadow: 0 0 30px 0 rgb(88, 88, 88);
+}
+
 .read-more-btn {
     border: none;
     color: rgb(238, 238, 238);
@@ -376,27 +297,6 @@ section>a>img {
         margin-top: 20px;
     }
 
-    /* -----CV----- */
-    .info {
-        top: 150px;
-        right: 150px;
-        z-index: 0;
-        position: absolute;
-        transform: none;
-    }
-
-    .quality {
-        margin-top: 8em;
-    }
-
-    table {
-        margin: 0;
-        width: 80vw;
-    }
-
-    tr {
-        margin-bottom: 10px;
-    }
 
     /* -----About me----- */
 
@@ -424,11 +324,14 @@ section>a>img {
 
     .icon--div {
         flex-direction: column;
-        height: 136px;
+        height: 150px;
         width: 7em;
     }
 
     .icon--div>a {
+        text-align: center;
+        width: 50px;
+        height: 136px;
         font-size: 250%;
     }
 
