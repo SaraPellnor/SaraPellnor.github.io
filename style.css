@@ -66,6 +66,22 @@ main {
     margin: 100px 0 100px 0;
 }
 
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  #blinking-logo {
+    animation: blink 3s infinite;
+  }
+
 .logo>*:hover {
     color: rgba(153, 83, 2, 0.603);
 }
