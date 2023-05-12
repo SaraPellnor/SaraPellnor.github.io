@@ -41,7 +41,8 @@ header {
     color: rgba(207, 206, 206, 0.356);
 }
 
-.this-side, #this-side {
+.this-side,
+#this-side {
     font-weight: bolder;
 }
 
@@ -103,15 +104,17 @@ footer {
     width: 15em;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: flex-start;
     color: rgb(185, 185, 185);
     z-index: 9999;
 }
 
-.address--div>a:hover {
+.address--div>.phone>a:hover {
     color: rgba(207, 206, 206, 0.356);
 }
-
+.phone {
+    margin-bottom: 5px;
+}
 .address--div>.phone>a {
     color: rgb(185, 185, 185);
 }
@@ -138,7 +141,7 @@ footer {
 iframe {
     width: 100vw;
     height: 100vh;
-    
+
 }
 
 .pdf-light {
@@ -146,6 +149,7 @@ iframe {
     font-size: 200%;
     color: rgb(185, 185, 185);
 }
+
 /* .quality {
     width: 180px;
     color: rgb(0, 105, 0);
@@ -288,7 +292,8 @@ tr {
 
 }
 
-section>a {
+section>a,
+p {
     text-align: center;
 }
 

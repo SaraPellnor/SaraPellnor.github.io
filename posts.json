@@ -1,0 +1,20 @@
+[
+    {
+        "name": "ToDo-list",
+        "link": "https://github.com/SaraPellnor/TypeScript-TdoList-Frontend",
+        "image": "img/todo.jpg",
+        "description": "Projekt i Typescript"
+    },
+    {
+        "name": "TechStore",
+        "link": "https://github.com/SigneAnnaMaria/TechStore10",
+        "image": "img/sale.jpg",
+        "description": "Gruppprojekt i Frontend"
+    },
+    {
+        "name": "Yatzy",
+        "link": "https://github.com/SaraPellnor/Yatzy-",
+        "image": "img/yatzy.jpg",
+        "description": "Eget projekt som är gjort för skoj skull i js html och css."
+    }
+]
