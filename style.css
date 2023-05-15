@@ -157,12 +157,13 @@ footer {
     justify-content: center;
     width: 30px;
     font-size: 200%;
-    color: rgb(185, 185, 185);
+    color: rgba(207, 206, 206, 0.356);
 }
 
 .icon--div>a:hover {
     font-size: 300%;
-    color: rgba(207, 206, 206, 0.356);
+    color: rgb(185, 185, 185);
+    
 }
 
 /* ----- cv ----- */
