@@ -16,5 +16,11 @@
         "link": " https://sarapellnor.github.io/Yatzy-/",
         "image": "img/yatzy.jpg",
         "description": "Eget projekt som är gjort för skoj skull i js html och css."
+    },
+        {
+        "name": "ChatApp",
+        "link": "https://github.com/heinanX/chatApp-sockets",
+        "image": "img/yatzy.jpg",
+        "description": "Grupprojekt med React, TS, Node.js och Socket."
     }
 ]
