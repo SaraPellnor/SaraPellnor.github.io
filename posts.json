@@ -20,7 +20,7 @@
         {
         "name": "ChatApp",
         "link": "https://github.com/heinanX/chatApp-sockets",
-        "image": "img/yatzy.jpg",
+        "image": "img/ChattApp.png",
         "description": "Grupprojekt med React, TS, Node.js och Socket."
     }
 ]
