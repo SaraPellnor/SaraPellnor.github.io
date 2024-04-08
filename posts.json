@@ -22,5 +22,12 @@
         "link": "https://github.com/heinanX/chatApp-sockets",
         "image": "img/chatapp.png",
         "description": "Grupprojekt med React, TS, Node.js och Socket."
+    },
+    {
+        "name": "Examensarbete - COCONUT",
+        "link": "https://github.com/SaraPellnor/Examensarbete.git",
+        "image": "img/coconut.png",
+        "description": "Examensprojekt med React.js, Node.js, Express.js, Mongoose och Stripe."
     }
+
 ]
